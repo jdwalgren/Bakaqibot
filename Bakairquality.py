@@ -21,8 +21,9 @@ api = tweepy.API(auth)
 localtime = time.asctime(time.gmtime())
 update = "Hello, today is {}, and the air quality for Bakersfield is {}.".format(localtime, airq)
 
-sleep timer 
-  time.sleep(15)
+#sleep timer 
+
+time.sleep(480)
 
 # update = "Hello, today is", localtime , "and the air quality is", Bakersfield"
 
